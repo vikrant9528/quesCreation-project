@@ -1,0 +1,37 @@
+<div class="wrapper">
+    <div class="select">
+        <mat-form-field appearance="outline" style="width: 100%;">
+            <mat-label>Select</mat-label>
+            <mat-select>
+              <mat-option  *ngFor="let survey of surveys;let i = index" [value]="survey">{{survey}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+    </div>
+    <div class="parent">
+        <div class="left">
+            <div class="heading">Add Question</div>
+            <div class="subheading">Choose a question type from the list below.</div>
+            <div class="typeList">
+                <div  class="listItem" *ngFor="let data of select;let i = index" >
+                    <mat-icon  class="mat-icon">radio_button_checked</mat-icon>
+                    <span (click)="navigate(i)">{{data}}</span>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="icon">
+                <img src="../../assets/images/upload-to-cloud.svg" height="50px" width="50px" alt="upload-image">
+            </div>
+            <div class="text">Drag and drop a spreadsheet of survey questions</div>
+            <div class="button">
+                <button mat-raised-button class="submitButton" onclick="document.getElementById('fileInput').click();">Browse Files</button>
+                <input type="file" id="fileInput" style="visibility: hidden; position: absolute; top: -200%; left: -200%;">
+            </div>
+            <a class="link" href="" style="text-decoration: none;">
+                <span >Download survey spreadsheet template</span>
+                <mat-icon style="height: 2rem; width: 2rem; font-size: 2rem;">cloud_download</mat-icon>
+            </a>
+        </div>
+    </div>
+    <app-survey-preview [data]="testData"></app-survey-preview>
+</div>

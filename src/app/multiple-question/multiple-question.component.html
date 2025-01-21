@@ -1,0 +1,92 @@
+<div class="top">
+    <div class="select">
+        <mat-form-field appearance="outline" style="width: 100%;">
+            <mat-label>Select</mat-label>
+            <mat-select>
+              <mat-option  *ngFor="let survey of surveys;let i = index" [value]="survey">{{survey}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+    </div>
+    <div class="form col-8" *ngIf="multipleQuestionForm">
+      <div class="heading col-12">
+        <h3 class="col-6" style="color: purple; margin: 4px;">Add Multiple choice question</h3>
+        <button mat-raised-button class="preview-button button col-6" style="width: 50px;" (click)="openDialog()">Preview</button>
+      </div>
+            <form [formGroup]="multipleQuestionForm" class="inner-form col-12" (ngSubmit)="onSubmit()">
+                <div class="col-12 question">
+                  <mat-form-field class="col-8" appearance="fill">
+                    <mat-label>Type your question</mat-label>
+                    <input matInput formControlName="qs_question">
+                    <mat-error *ngIf="multipleQuestionForm.get('qs_question')?.hasError('required')">
+                      Question is required
+                    </mat-error>
+                </mat-form-field>
+               <span class="col-1"></span>
+
+                <mat-form-field class="col-3" appearance="fill">
+                  <mat-label>Enter Spss</mat-label>
+                  <input matInput formControlName="SPSS"> 
+              </mat-form-field>
+                </div>
+                <div class="options col-12" formArrayName="options">
+                  <div class="col-6 d-flex justify-content-around inner-options" *ngFor="let option of dynamicFields.controls; let i = index" [formGroupName]="i">
+                    <mat-form-field class="col-4 " appearance="fill">
+                      <mat-label>Option {{ i + 1 }}</mat-label>
+                      <input matInput formControlName="opt_option">
+                    </mat-form-field>
+                    <mat-form-field class="col-4 ps-2" appearance="fill">
+                      <mat-label>Options Spss</mat-label>
+                      <input matInput formControlName="SPSS">
+                    </mat-form-field>
+                    <span (click)="delete(i)">
+                      <mat-icon>delete</mat-icon>
+                    </span>
+                  </div>
+                </div>
+               <div class="addmore ps-2">
+               <span (click)="addOptions('normal')"> <mat-icon style="cursor: pointer;" >add</mat-icon></span>
+                <div class="addoptions">
+                  <p style="color: gray;">
+                    Add 
+                    <span class="special" (click)="addOptions('normal')">More options,</span>
+                   <span class="special" (click)="addOptions('none')">Exclusive All,</span>
+                    <span class="special" (click)="addOptions('freetext')">Freetext</span>
+                    type option
+                  </p>
+                </div>
+               </div>
+               
+                
+                <div class="form-button col-12 mt-3">
+                  <button
+                  mat-raised-button
+                   class="button"
+                   mat-button
+                   color="accent"
+                   type="button"
+                   routerLink="/select"
+                 >
+                   Cancel
+                 </button>
+                  <button
+                  mat-raised-button
+                   class="ms-2 button"
+                   mat-button
+                   color="primary"
+                   type="submit"
+                   [disabled]="multipleQuestionForm.invalid"
+                   [ngClass]="multipleQuestionForm.valid?'preview-button':''"
+                 >
+                   Submit
+                 </button>
+                 </div>
+                
+              </form>
+
+    </div>
+</div>
+
+
+
+  
+

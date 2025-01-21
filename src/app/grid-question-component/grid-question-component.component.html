@@ -1,0 +1,126 @@
+<div class="top">
+  <div class="select">
+    <mat-form-field appearance="outline" style="width: 100%;">
+      <mat-label>Select</mat-label>
+      <mat-select>
+        <mat-option *ngFor="let survey of surveys;let i = index" [value]="survey">{{survey}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <div mat-dialog-content class="questions col-8">
+    <ul class="list">
+      <li *ngFor="let type of questionType ;let i = index" class="list-item"
+        style="display: flex; align-items: center; margin-bottom: 8px;">
+        <input type="radio" name="questiontype" value="one" style="margin-right: 8px;">
+        <label>{{ type }}</label>
+      </li>
+    </ul>
+  </div>
+  <div class="form col-8" *ngIf="gridQuestionForm">
+    <div class="heading col-12">
+      <h3 class="col-6" style="color: purple; margin: 4px;">Add grid choice question</h3>
+      <button mat-raised-button class="preview-button button col-6" style="width: 50px;"
+        (click)="openDialog()">Preview</button>
+    </div>
+
+    <form class="col-12" [formGroup]="gridQuestionForm" class="inner-form" (ngSubmit)="onSubmit()">
+      <div class="col-12 question">
+        <mat-form-field class="col-5" appearance="fill">
+          <mat-label>Type your question</mat-label>
+          <input matInput formControlName="qs_question">
+          <mat-error *ngIf="gridQuestionForm.get('qs_question')?.hasError('required')">
+            Question is required
+          </mat-error>
+        </mat-form-field>
+        <span class="col-2"></span>
+        <mat-form-field class="col-5" appearance="fill">
+          <mat-label>Enter SPSS</mat-label>
+          <input matInput formControlName="SPSS">
+        </mat-form-field>
+      </div>
+
+
+
+      <div class="dynamic-section col-12">
+        <div class="first-array col-12">
+          <div class="options-section col-5">
+            <div class="options col-12" formArrayName="options">
+              <div class="col-12 d-flex justify-content-around inner-options"
+                *ngFor="let option of dynamicFields.controls; let i = index" [formGroupName]="i">
+                <mat-form-field class="col-6 " appearance="fill">
+                  <mat-label>Option {{ i + 1 }}</mat-label>
+                  <input matInput formControlName="opt_option">
+                </mat-form-field>
+                <mat-form-field class="col-6 ps-2" appearance="fill">
+                  <mat-label>Options SPSS</mat-label>
+                  <input matInput formControlName="SPSS">
+                </mat-form-field>
+                <div></div>
+                <span (click)="deleteValues(i,'option')">
+                  <mat-icon>delete</mat-icon>
+                </span>
+              </div>
+            </div>
+            <div class="addmore ps-2">
+              <span (click)="addOptions('normal')"> <mat-icon style="cursor: pointer;">add</mat-icon></span>
+              <div style="border-bottom: 1px solid gray;" class="col-11 addoptions">
+                <p style="color: gray;">
+                  Add More Options
+                </p>
+              </div>
+            </div>
+          </div>
+         
+
+           <div class="value-section col-5">
+            <div class="options col-12" formArrayName="values">
+              <div class="col-12 d-flex justify-content-around inner-options"
+                *ngFor="let option of valueFields.controls; let i = index" [formGroupName]="i">
+                <mat-form-field class="col-6 " appearance="fill">
+                  <mat-label>Value {{ i + 1 }}</mat-label>
+                  <input matInput formControlName="gr_value">
+                </mat-form-field>
+                <mat-form-field class="col-6 ps-2" appearance="fill">
+                  <mat-label>Value SPSS</mat-label>
+                  <input matInput formControlName="SPSS">
+                </mat-form-field>
+                <span (click)="deleteValues(i,'value')">
+                  <mat-icon>delete</mat-icon>
+                </span>
+              </div>
+            </div>
+            <div class=" addmore ps-2">
+              <span (click)="addValues('normal')"> <mat-icon style="cursor: pointer;">add</mat-icon></span>
+              <div style="border-bottom: 1px solid gray;" class="col-11 addoptions">
+                <p style="color: gray;">
+                  Add More Values
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+
+
+
+
+
+
+      </div>
+
+      <div class="form-button col-12 mt-3">
+        <button mat-raised-button class="button" mat-button color="accent" type="button" routerLink="/select">
+          Cancel
+        </button>
+        <button mat-raised-button class="ms-2 button" mat-button color="primary" type="submit"
+          [disabled]="gridQuestionForm.invalid" [ngClass]="gridQuestionForm.valid?'preview-button':''">
+          Submit
+        </button>
+      </div>
+
+    </form>
+
+  </div>
+</div>

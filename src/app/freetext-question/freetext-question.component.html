@@ -1,0 +1,85 @@
+
+<div class="top  row">
+    <div class="select ">
+      <mat-form-field class="col-12" appearance="outline" style="width: 66.66%;">
+        <mat-label>Select</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let survey of surveys;let i = index" [value]="survey">{{survey}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div mat-dialog-content class="questions col-8">
+      <ul class="list">
+        <li *ngFor="let type of questionType ;let i = index" class="list-item"
+          style="display: flex; align-items: center; margin-bottom: 8px;">
+          <input *ngIf="type.value == 'freetext'" (change)="qsType($event)" type="radio" [name]="type.Value" [value]="type.value" style="margin-right: 8px;" checked >
+          <input *ngIf="type.value != 'freetext'" (change)="qsType($event)" type="radio" [name]="type.Value" [value]="type.value" style="margin-right: 8px;"  >
+
+          <label>{{ type.type }}</label>
+        </li>
+      </ul>
+    </div>
+    <div class="form col-8" *ngIf="freeTextQuestionForm">
+      <div class="heading col-12">
+        <h3 class="col-6" style="color: purple; margin: 4px;">Add free-text choice question</h3>
+        <button mat-raised-button class="preview-button button col-6" style="width: 50px;"
+          (click)="openDialog()">Preview</button>
+      </div>
+  
+      <form class="col-12" [formGroup]="freeTextQuestionForm" class="inner-form" (ngSubmit)="onSubmit()">
+        <div class="col-12 question">
+          <mat-form-field class="col-7" appearance="fill">
+            <mat-label>Type your question</mat-label>
+            <textarea matInput  formControlName="qs_question"></textarea>
+            <mat-error *ngIf="freeTextQuestionForm.get('qs_question')?.hasError('required')">
+              Question is required
+            </mat-error>
+          </mat-form-field>
+          <span class="col-1"></span>
+          <mat-form-field class="col-4" appearance="fill">
+            <mat-label>Enter SPSS</mat-label>
+            <textarea matInput formControlName="SPSS"></textarea>
+          </mat-form-field>
+        </div>
+        <div *ngIf="type == 'freetext'"  class="option-section col-12">
+          <mat-form-field class="text-field col-12 " appearance="fill">
+            <mat-label>Your Answer</mat-label>
+            <textarea matInput disabled></textarea>
+          </mat-form-field>
+        </div>
+        
+        <div *ngIf="type == 'multiple-freetext'" class="col-12">
+         <div class="col-12 multiple-freetext" *ngFor="let data of optionRange;let i = index
+         "> 
+          <div class=" col-11 "  style="position: relative;" appearance="fill">
+            <input style="padding: 7px;" class="col-12 mb-2" type="text" placeholder="Your Answer {{i+1}}" disabled>
+            <span *ngIf='i>0' (click)="decounter()" style="position: absolute; right: 0; bottom: 7.5px;" >
+              <mat-icon>delete</mat-icon>
+            </span>
+          </div>
+        
+          <span (click)="incounter()" class="span-icon">
+            <mat-icon>add</mat-icon>
+          </span>
+         </div>
+        </div>
+  
+  
+  
+        <div class="form-button col-12 mt-3">
+          <button mat-raised-button class="button" mat-button color="accent" type="button" routerLink="/select">
+            Cancel
+          </button>
+          <button mat-raised-button class="ms-2 button" mat-button color="primary" type="submit"
+            [disabled]="freeTextQuestionForm.invalid" [ngClass]="freeTextQuestionForm.valid?'preview-button':''">
+            Submit
+          </button>
+        </div>
+
+    
+  
+      </form>
+
+  
+    </div>
+  </div>

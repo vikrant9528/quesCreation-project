@@ -1,0 +1,18 @@
+
+
+<div class="wrapper">
+    <h1 mat-dialog-title class="title">
+        Example Question
+    </h1>
+    <div mat-dialog-content class="matdialog">
+        <input style="width: 90%; padding: 5px; color: darkgray;" type="text" [placeholder]="data.placeholder" disabled>
+            <ul class="list">
+                <li  *ngFor="let season of data.season; let i = index" 
+                    class="list-item" 
+                    style="display: flex; align-items: center; margin-bottom: 8px;">
+                  <input [type]="data.type" name="season" [value]="season" style="margin-right: 8px;">
+                  <label>{{ season }}</label>
+                </li>
+        </ul>
+    </div>
+</div>

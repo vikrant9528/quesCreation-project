@@ -1,0 +1,124 @@
+.top {
+    width: 100%;
+
+    .select {
+        width: 100%;
+        padding: 3px;
+    }
+
+    .options {
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .question {
+        display: flex;
+    }
+
+    .form {
+        padding: 20px;
+    }
+
+    .button {
+        border-radius: 50px !important;
+        min-width: 92px;
+        min-height: 38px;
+        line-height: 35px !important
+    }
+
+    .heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .preview-button {
+            color: #fff !important;
+            background-image: linear-gradient(135deg, #79236B, #1C5BA2) !important;
+            cursor: pointer;
+        }
+    }
+}
+
+.special {
+    color: purple;
+    text-decoration: underline;
+    margin-left: 3px;
+}
+
+.special:hover {
+    cursor: pointer;
+}
+
+.addmore {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+
+.liker-circle {
+    min-height: 80px;
+    flex-direction: row;
+    box-sizing: border-box;
+    display: flex;
+    place-content: center;
+    align-items: center;
+
+    .mat-icon-button {
+        padding: 0;
+        min-width: 0;
+        width: 40px;
+        height: 40px;
+        flex-shrink: 0;
+        line-height: 40px;
+        border-radius: 50%;
+    }
+
+    .numeric-box {
+        flex-direction: row;
+        box-sizing: border-box;
+        display: flex;
+        place-content: center;
+        align-items: center;
+
+        .box-container {
+            min-height: 32px;
+            min-width: 32px;
+            max-height: 32px;
+            max-width: 32px;
+            height: 32px;
+            width: 32px;
+            border-radius: 50%;
+            border: 1px solid rgb(84, 24, 132);
+            color: #541884;
+            transition: all .3s linear;
+
+            padding: 5% 0%;
+            flex-direction: row;
+            box-sizing: border-box;
+            display: flex;
+            place-content: center;
+            align-items: center;
+            margin-right: 5px;
+        }
+    }
+}
+
+.likely-level {
+    flex-direction: row;
+    box-sizing: border-box;
+    display: flex;
+    place-content: center space-between;
+    align-items: center;
+}
+
+::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
+    background-color: transparent !important;
+}
+// ::ng-deep .mat-form-field-wrapper {
+//     width: 70%;
+// }
+.form-button{
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,23 @@
+.question-heading{
+    width: 100%;
+    display: flex;
+   justify-content: space-between;
+   padding: 10px;
+   background-color: #eeeeee;
+   margin-bottom: 5px;
+}
+.question-spss{
+    width: 65%;
+    display: flex;
+    gap: 15px;
+    font-size: 0.895rem;
+}
+.question-type{
+    width: 20%;
+    gap: 15%;
+    display: flex;
+    justify-content: end;
+}
+.inner-question{
+    width: 50%;
+}

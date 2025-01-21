@@ -1,0 +1,12 @@
+<div class="question-heading" *ngFor="let data of survey;let i = index">
+    <span>Q.{{i+1}}.</span>
+    <div class="question-spss">
+        <span style="width: 15%;">{{data.SPSS}}</span>
+        <div class="inner-question" style="word-wrap: break-word;">{{data.qs_question}}</div>
+    </div>
+    <div class="question-type">
+        <span>{{data.qs_type}}</span>
+        <span><mat-icon>more_vert</mat-icon></span>
+        <span><mat-icon>swap_vert</mat-icon></span>
+    </div>
+</div>

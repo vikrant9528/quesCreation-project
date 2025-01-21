@@ -1,0 +1,104 @@
+<div class="top">
+    <div class="select">
+        <mat-form-field appearance="outline" style="width: 100%;">
+            <mat-label>Select</mat-label>
+            <mat-select>
+              <mat-option  *ngFor="let survey of surveys;let i = index" [value]="survey">{{survey}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+    </div>
+    <div class="form col-12" *ngIf="likertScaleForm">
+      <div class="heading col-8">
+        <h3 class="col-6" style="color: purple; margin: 4px;">Add Likert Scale question</h3>
+        <button mat-raised-button class="preview-button button col-6" style="width: 50px;" (click)="openDialog()">Preview</button>
+      </div>
+            <form [formGroup]="likertScaleForm" class="inner-form" (ngSubmit)="onSubmit()">
+                <div class="col-8 question">
+                  <mat-form-field class="col-5" appearance="fill">
+                    <mat-label>Type your question</mat-label>
+                    <input matInput formControlName="qs_question">
+                    <mat-error *ngIf="likertScaleForm.get('qs_question')?.hasError('required')">
+                      Question is required
+                    </mat-error>
+                </mat-form-field>
+                <span class="col-2"></span>
+                <mat-form-field class="col-5" appearance="fill">
+                  <mat-label>Enter Spss</mat-label>
+                  <input matInput formControlName="SPSS"> 
+              </mat-form-field>
+                </div>
+                <div class="answer-section">
+                    <span>Answer</span>
+                </div>
+                <div class="liker-circle col-8" >
+                    <button type="button"  mat-icon-button class="mat-icon-button">
+                        <span (click)="decounter()" class="mat-button-wrapper">
+                            <mat-icon style="color: #a6acaf;">remove_circle</mat-icon>
+                        </span>
+                    </button>
+                    <div class="numeric-box">
+                        <div class="box-container" *ngFor="let data of likertRange;let i = index">
+                            <span  >{{data}}</span>
+                        </div>
+                    </div>
+                    <button type="button" mat-icon-button class="mat-icon-button">
+                        <span class="mat-button-wrapper" (click)="incounter()">
+                            <mat-icon style="color: #a6acaf;" >add_circle</mat-icon>
+                        </span>
+                    </button>
+                </div>
+                <div class="likely-level col-8">
+                    <div class="left ">
+                        <mat-form-field appearance="fill" style="position: relative;">
+                            <mat-label>Not Likely</mat-label>
+                            <input matInput formControlName="not_like"> 
+                            <span style="position: absolute; right: 0;"><mat-icon>edit</mat-icon></span>
+                        </mat-form-field>
+                    </div>
+                    <div class="right">
+                        <mat-form-field  appearance="fill" style="position: relative;">
+                            <mat-label>Extremely Likely</mat-label>
+                            <input matInput formControlName="extreme_like"> 
+                            <span style="position: absolute; right: 0;"><mat-icon>edit</mat-icon></span>
+                        </mat-form-field>
+                    </div>
+                </div>
+               
+                
+<!--                 
+                <button type="button" class="mt-2" mat-button (click)="addOptions('normal')">Add Option</button>
+                <button type="button" class="mt-2" mat-button (click)="addOptions('exclusive')">Add Mutual Exclusive</button> -->
+                
+                <div class="form-button col-8 mt-3">
+                    <button
+                    mat-raised-button
+                     class="button"
+                     mat-button
+                     color="accent"
+                     type="button"
+                     routerLink="/select"
+                   >
+                     Cancel
+                   </button>
+                    <button
+                    mat-raised-button
+                     class="ms-2 button"
+                     mat-button
+                     color="primary"
+                     type="submit"
+                     [disabled]="likertScaleForm.invalid"
+                     [ngClass]="likertScaleForm.valid?'preview-button':''"
+                   >
+                     Submit
+                   </button>
+                   </div>
+                
+              </form>
+
+    </div>
+</div>
+
+
+
+  
+

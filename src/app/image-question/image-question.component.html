@@ -1,0 +1,84 @@
+<div class="top">
+    <div class="select">
+        <mat-form-field appearance="outline" style="width: 100%;">
+            <mat-label>Select</mat-label>
+            <mat-select>
+              <mat-option  *ngFor="let survey of surveys;let i = index" [value]="survey">{{survey}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+    </div>
+    <div class="form col-8" *ngIf="imageQuestionForm">
+      <div class="heading col-12">
+        <h3 class="col-6" style="color: purple; margin: 4px;">Add single choice question</h3>
+        <button mat-raised-button class="preview-button button col-6" style="width: 50px;" (click)="openDialog()">Preview</button>
+      </div>
+            <form [formGroup]="imageQuestionForm" class="inner-form col-12" >
+                <div class="col-12 question">
+                  <mat-form-field class="col-8" appearance="fill">
+                    <mat-label>Type your question</mat-label>
+                    <input matInput formControlName="qs_question">
+                    <mat-error *ngIf="imageQuestionForm.get('qs_question')?.hasError('required')">
+                      Question is required
+                    </mat-error>
+                </mat-form-field>
+               <span class="col-1"></span>
+
+                <mat-form-field class="col-3" appearance="fill">
+                  <mat-label>Enter Spss</mat-label>
+                  <input matInput formControlName="SPSS"> 
+              </mat-form-field>
+                </div>
+      
+
+              <div formArrayName="options">
+                
+                <div style="display: flex; align-items: center;" *ngFor="let option of dynamicFields.controls; let i = index" [formGroupName]="i">
+                  <mat-form-field class="col-3" appearance="fill">
+                    <mat-label>Enter option</mat-label>
+                    <input matInput formControlName="option"> 
+                    </mat-form-field>
+                    <button *ngIf="!dynamicFields.at(i).value.optionImage"  class="button" type="button" mat-raised-button (click)="fileInput.click()">Choose File</button>
+                    <input hidden (change)="handleInputChange($event, i)"  #fileInput type="file" id="file">
+                    <!-- <input type="file" (change)="handleInputChange($event, i)"  id="fileInput" style="visibility: hidden; position: absolute; top: -200%; left: -200%;" multiple> -->
+                  <img *ngIf="dynamicFields.at(i).value.optionImage" [src]="dynamicFields.at(i).value.optionImage" alt="Preview" width="100" />
+                  <!-- <button  mat-raised-button color="warn" type="button" >  <mat-icon (click)="delete(i)">delete</mat-icon></button> -->
+                  <mat-icon class="delete-icon" (click)="delete(i)">delete</mat-icon>
+
+                </div>
+                <button class="button" color="primary" mat-raised-button type="button" (click)="addOptions()"   >Add Option</button>
+              </div>
+    
+                <div class="form-button col-12 mt-3">
+                  <button
+                  mat-raised-button
+                   class="button"
+                   mat-button
+                   color="accent"
+                   type="button"
+                   routerLink="/select"
+                 >
+                   Cancel
+                 </button>
+                  <button
+                  mat-raised-button
+                   class="ms-2 button"
+                   mat-button
+                   color="primary"
+                   type="submit"
+                   [disabled]="imageQuestionForm.invalid"
+                   [ngClass]="imageQuestionForm.valid?'preview-button':''" 
+                   (click)="onSubmit()"
+                 >
+                   Submit
+                 </button>
+                 </div>
+                
+              </form>
+
+    </div>
+</div>
+
+
+
+  
+

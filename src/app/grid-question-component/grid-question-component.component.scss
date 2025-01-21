@@ -1,0 +1,97 @@
+.top{
+    width: 100%;
+    padding: 10px;
+    .select{
+        width: 100%;
+        padding: 3px;
+    }
+    .options{
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+    .question{
+        display: flex;
+    }
+    .form{
+        padding: 5px;
+    }
+    .button{
+        border-radius: 50px !important;
+        min-width: 92px;
+        min-height: 38px;
+        line-height: 35px !important
+    }
+    .heading{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .preview-button{ 
+            color: #fff !important;
+            background-image: linear-gradient(135deg, #79236B, #1C5BA2) !important;
+            cursor: pointer;
+        }
+    }
+}
+.special{
+    color: purple;
+    text-decoration: underline;
+    margin-left: 3px;
+}
+.special:hover{
+    cursor: pointer;
+}
+.addmore{
+    display: flex;
+    gap: 10px;
+}
+.wrapper{
+     display: flex;
+     flex-direction: column;
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 2px;
+    .title{
+        color: #541884;
+        font-size: 15px;
+        padding: 2px;
+        margin: 0 0 5px;
+       
+    }
+    .matdialog{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .list{
+            display: flex;
+            flex-direction: column;;
+        }
+    
+        ul{
+            padding: 5px !important;
+        }
+    }
+}
+::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
+    background-color: transparent !important;
+}
+.list{
+    display: flex;
+    gap: 10px;
+
+}
+
+ul{
+    padding: 5px !important;
+}
+.dynamic-section{
+    display: flex;
+}
+.first-array{
+    display: flex;
+    gap: 16%;
+}
+.form-button{
+    display: flex;
+    justify-content: flex-end;
+}

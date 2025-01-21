@@ -1,0 +1,79 @@
+
+.header{
+    background-color: purple;
+    display: flex;
+    align-items: center;
+}
+.login-img {
+  img {
+    width: 100%;
+  }
+}
+
+.forget {
+  display: flex;
+  justify-content: flex-end;
+
+  P {
+    color: #0B66C2;
+  }
+}
+
+.login-heading {
+  h4 {
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 137.188%;
+    /* 30.181px */
+    color: purple;
+  }
+}
+
+.form-label {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 137.188%;
+  color: purple;
+  /* 27.438px */
+}
+
+.btn-area {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+
+  p {
+    margin: 0;
+  }
+}
+
+.error {
+  font-size: 12px;
+  margin-bottom: 0px;
+  margin-top: 2px;
+}
+
+
+.job-btn {
+  column-gap: 10px;
+  background-color: purple;
+  color: white;
+  ::ng-deep.mdc-circular-progress__circle-clipper .mdc-circular-progress__indeterminate-circle-graphic {
+    stroke: white !important;
+  }
+}
+
+.input-group-text {
+  background-color: transparent;
+}
+
+.hire-eq {
+  img {
+    width: 100%;
+  }
+}
+

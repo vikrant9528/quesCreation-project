@@ -1,0 +1,77 @@
+.top{
+    width: 100%;
+    .select{
+        width: 100%;
+        padding: 3px;
+    }
+    .options{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .question{
+        display: flex;
+        // gap: 30px;
+    }
+    .form{
+        padding: 20px;
+    }
+    .button{
+        border-radius: 50px !important;
+        min-width: 92px;
+        min-height: 38px;
+        line-height: 35px !important
+    }
+    .heading{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .preview-button{ 
+            color: #fff !important;
+            background-image: linear-gradient(135deg, #79236B, #1C5BA2) !important;
+            cursor: pointer;
+        }
+    }
+}
+.special{
+    color: purple;
+    text-decoration: underline;
+    margin-left: 3px;
+}
+.special:hover{
+    cursor: pointer;
+}
+.addmore{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+  ::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
+    background-color: transparent !important;
+  }
+  .form-button{
+    display: flex;
+    justify-content: flex-end;
+}
+.right{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+    height: 100%;
+    padding-inline: 2rem;
+    text-align: center;
+
+    .submitButton{
+        border-radius: 20px;
+        cursor: pointer;
+    }
+}
+.image-section{
+    border: 1px solid gray;
+    border-style: dashed;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
