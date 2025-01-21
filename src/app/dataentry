@@ -1,0 +1,2811 @@
+{
+    "success": true,
+    "message": "Data fetched successfully 👌",
+    "data": [
+        {
+            "qs_id": 90182,
+            "qs_cns_id": 16702,
+            "qs_sequence": 1,
+            "qs_question": "Some german words",
+            "qs_type": "single",
+            "qs_flags": "{\"opt_shuffle\":0,\"opt_max\":null,\"opt_min\":null,\"editable\":false,\"autofill\":\"gender\"}",
+            "tag": "S1",
+            "SPSS": "S1",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2024-11-23T15:14:57.000Z",
+            "updated_at": "2025-01-21T02:58:24.000Z",
+            "deleted_at": null,
+            "options": [
+                {
+                    "opt_id": 285311,
+                    "opt_qs_id": 90182,
+                    "opt_option": "Männlich",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0,\"p_value\":1}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "1",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285312,
+                    "opt_qs_id": 90182,
+                    "opt_option": "Weiblich",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0,\"p_value\":2}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "2",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285313,
+                    "opt_qs_id": 90182,
+                    "opt_option": "Nicht-binär",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0,\"p_value\":3}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "3",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90183,
+            "qs_cns_id": 16702,
+            "qs_sequence": 2,
+            "qs_question": "Wie alt sind Sie?",
+            "qs_type": "freetext-numeric",
+            "qs_flags": "{\"min\":1,\"max\":99,\"opt_min_allowed\":7,\"opt_max_allowed\":99,\"autofill\":\"age\",\"editable\":false}",
+            "tag": "S2",
+            "SPSS": "S2",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2024-11-23T15:14:57.000Z",
+            "updated_at": "2024-11-23T15:14:57.000Z",
+            "deleted_at": null
+        },
+        {
+            "qs_id": 90184,
+            "qs_cns_id": 16702,
+            "qs_sequence": 3,
+            "qs_question": "In welchem Land leben Sie?",
+            "qs_type": "single",
+            "qs_flags": "{\"opt_shuffle\":0,\"opt_max\":null,\"opt_min\":null,\"editable\":false,\"autofill\":\"country_code2\"}",
+            "tag": "S3",
+            "SPSS": "S3",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2024-11-23T15:14:57.000Z",
+            "updated_at": "2024-11-23T15:14:57.000Z",
+            "deleted_at": null,
+            "options": [
+                {
+                    "opt_id": 285314,
+                    "opt_qs_id": 90184,
+                    "opt_option": "Australien",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":1,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "1",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285315,
+                    "opt_qs_id": 90184,
+                    "opt_option": "Brasilien",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":1,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "2",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285316,
+                    "opt_qs_id": 90184,
+                    "opt_option": "Kanada",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":1,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "3",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285317,
+                    "opt_qs_id": 90184,
+                    "opt_option": "China",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":1,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "4",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285318,
+                    "opt_qs_id": 90184,
+                    "opt_option": "Frankreich",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":1,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "5",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285319,
+                    "opt_qs_id": 90184,
+                    "opt_option": "Deutschland",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0,\"p_value\":\"DE\"}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "6",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285320,
+                    "opt_qs_id": 90184,
+                    "opt_option": "Indien",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":1,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "7",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285321,
+                    "opt_qs_id": 90184,
+                    "opt_option": "Indonesien",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":1,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "8",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285322,
+                    "opt_qs_id": 90184,
+                    "opt_option": "Japan",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":1,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "9",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285323,
+                    "opt_qs_id": 90184,
+                    "opt_option": "Mexiko",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":1,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "10",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285324,
+                    "opt_qs_id": 90184,
+                    "opt_option": "Südkorea",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":1,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "11",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285325,
+                    "opt_qs_id": 90184,
+                    "opt_option": "Vereinigtes Königreich",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":1,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "12",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285326,
+                    "opt_qs_id": 90184,
+                    "opt_option": "Vereinigte Staaten",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":1,\"opt_fixed\":0,\"p_value\":\"US\"}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "13",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285327,
+                    "opt_qs_id": 90184,
+                    "opt_option": "Keine der oben Genannten",
+                    "opt_type": "none",
+                    "opt_flags": "{\"opt_reject\":1,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "99",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90185,
+            "qs_cns_id": 16702,
+            "qs_sequence": 4,
+            "qs_question": "CODE LANGUAGE",
+            "qs_type": "single",
+            "qs_flags": "{\"opt_shuffle\":0,\"opt_max\":null,\"opt_min\":null}",
+            "tag": "S4",
+            "SPSS": "S4",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2024-11-23T15:14:57.000Z",
+            "updated_at": "2024-11-23T15:14:57.000Z",
+            "deleted_at": "2024-07-23T15:17:35.000Z",
+            "options": [
+                {
+                    "opt_id": 285328,
+                    "opt_qs_id": 90185,
+                    "opt_option": "Kino",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "1",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285329,
+                    "opt_qs_id": 90185,
+                    "opt_option": "Theater",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "2",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90186,
+            "qs_cns_id": 16702,
+            "qs_sequence": 10,
+            "qs_question": "Haben Sie oder ein Mitglied Ihrer unmittelbaren Familie (Ehepartner, Kind oder Elternteil) eine aktuelle oder frühere Beschäftigungsgeschichte in einer der folgenden Branchen? <i>Wählen Sie bitte alle zutreffenden Antwortmöglichkeiten aus.</i>\n",
+            "qs_type": "multiple",
+            "qs_flags": "{\"opt_shuffle\":true,\"opt_max\":null,\"opt_min\":null}",
+            "tag": "S10",
+            "SPSS": "S10",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2024-11-23T15:14:57.000Z",
+            "updated_at": "2024-11-23T15:14:57.000Z",
+            "deleted_at": null,
+            "options": [
+                {
+                    "opt_id": 285330,
+                    "opt_qs_id": 90186,
+                    "opt_option": "Werbung",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":1,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "1",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285331,
+                    "opt_qs_id": 90186,
+                    "opt_option": "Marktforschung",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":1,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "2",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285332,
+                    "opt_qs_id": 90186,
+                    "opt_option": "Unterhaltungsindustrie",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":1,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "3",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285333,
+                    "opt_qs_id": 90186,
+                    "opt_option": "Radio oder Fernsehen (einschließlich Kabel)",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "4",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285334,
+                    "opt_qs_id": 90186,
+                    "opt_option": "Einzelhandel",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "5",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285335,
+                    "opt_qs_id": 90186,
+                    "opt_option": "Versicherung",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "6",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285336,
+                    "opt_qs_id": 90186,
+                    "opt_option": "Bildungswesen (Grundschule, Mittelschule, Gymnasium, Hochschule usw.)",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "7",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285337,
+                    "opt_qs_id": 90186,
+                    "opt_option": "Bauwesen",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "8",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285338,
+                    "opt_qs_id": 90186,
+                    "opt_option": "Keine der oben Genannten",
+                    "opt_type": "none",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":1}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "99",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90187,
+            "qs_cns_id": 16702,
+            "qs_sequence": 11,
+            "qs_question": "Wie oft haben Sie in den vergangenen 6 Monaten an den folgenden Aktivitäten teilgenommen? <i>Geben Sie unten bitte die Anzahl ein.</i>\r",
+            "qs_type": "grid-freetext",
+            "qs_flags": "{\"opt_shuffle\":true}",
+            "tag": "S11",
+            "SPSS": "S11",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2024-11-23T15:14:58.000Z",
+            "updated_at": "2024-11-23T15:14:58.000Z",
+            "deleted_at": null,
+            "options": [
+                {
+                    "opt_id": 285339,
+                    "opt_qs_id": 90187,
+                    "opt_option": "Total",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"hidden\":1,\"sumof\":[285340,285341,285342,285343]}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "Z",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285340,
+                    "opt_qs_id": 90187,
+                    "opt_option": "Ich habe einen Film im Kino gesehen",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_min_allowed\":1}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "A",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285341,
+                    "opt_qs_id": 90187,
+                    "opt_option": "Ich habe einen Themenpark/ Vergnügungspark besucht",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "B",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285342,
+                    "opt_qs_id": 90187,
+                    "opt_option": "Ich habe an einer Live-Sportveranstaltung teilgenommen",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "C",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285343,
+                    "opt_qs_id": 90187,
+                    "opt_option": "Ich bin mit dem Flugzeug verreist",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "D",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90188,
+            "qs_cns_id": 16702,
+            "qs_sequence": 12,
+            "qs_question": "An welchen der folgenden Aktivitäten haben Sie in der vergangenen Woche teilgenommen? <i>Wählen Sie bitte alle zutreffenden Antwortmöglichkeiten aus.</i>\n",
+            "qs_type": "multiple",
+            "qs_flags": "{\"opt_shuffle\":1,\"opt_max\":null,\"opt_min\":null}",
+            "tag": "S12",
+            "SPSS": "S12",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2024-11-23T15:14:58.000Z",
+            "updated_at": "2024-11-23T15:14:58.000Z",
+            "deleted_at": null,
+            "options": [
+                {
+                    "opt_id": 285344,
+                    "opt_qs_id": 90188,
+                    "opt_option": "Ich habe einen Film oder eine Fernsehsendung von einem Streaming-Dienst gestreamt",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "1",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285345,
+                    "opt_qs_id": 90188,
+                    "opt_option": "Ich habe ein Videospiel auf einem PC oder einer Spielekonsole gespielt (z. B. PlayStation, Xbox, Nintendo usw.)",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "2",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285346,
+                    "opt_qs_id": 90188,
+                    "opt_option": "Ich habe ein Videospiel auf einem Smartphone oder Tablet gespielt",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "3",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285347,
+                    "opt_qs_id": 90188,
+                    "opt_option": "Ich habe ein Video auf YouTube oder TikTok angesehen",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "4",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285348,
+                    "opt_qs_id": 90188,
+                    "opt_option": "Ich habe durch eine Social-Media-Plattform gescrollt (z. B. Facebook, Instagram, Twitter/X usw.)",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "5",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285349,
+                    "opt_qs_id": 90188,
+                    "opt_option": "Keine der oben Genannten",
+                    "opt_type": "none",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":1}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "99",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90189,
+            "qs_cns_id": 16702,
+            "qs_sequence": 15,
+            "qs_question": "Haben Sie Kinder unter 18 Jahren?",
+            "qs_type": "single",
+            "qs_flags": "{\"opt_shuffle\":0,\"opt_max\":null,\"opt_min\":null,\"rebased\":true}",
+            "tag": "S15",
+            "SPSS": "S15",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2024-11-23T15:14:58.000Z",
+            "updated_at": "2024-11-23T15:14:58.000Z",
+            "deleted_at": null,
+            "options": [
+                {
+                    "opt_id": 285350,
+                    "opt_qs_id": 90189,
+                    "opt_option": "Ja",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "1",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285383,
+                    "opt_qs_id": 90189,
+                    "opt_option": "Nein",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "2",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90192,
+            "qs_cns_id": 16702,
+            "qs_sequence": 17,
+            "qs_question": "CODE HIDDEN VARIABLE FOR PARENT OF CHILD 13-17 OR PARENT OF CHILD 7-12",
+            "qs_type": "multiple",
+            "qs_flags": "{\"opt_shuffle\":0,\"opt_max\":null,\"opt_min\":null,\"rebased\":true}",
+            "tag": "S17",
+            "SPSS": "S17",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2024-11-23T15:14:59.000Z",
+            "updated_at": "2024-11-23T15:14:59.000Z",
+            "deleted_at": "2024-07-29T14:34:35.000Z",
+            "options": [
+                {
+                    "opt_id": 285384,
+                    "opt_qs_id": 90192,
+                    "opt_option": "Parent of 13-17",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "1",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285385,
+                    "opt_qs_id": 90192,
+                    "opt_option": "Parent of 7-12",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "2",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285386,
+                    "opt_qs_id": 90192,
+                    "opt_option": "Gen 18-24",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "3",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285387,
+                    "opt_qs_id": 90192,
+                    "opt_option": "ELSE",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "4",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90193,
+            "qs_cns_id": 16702,
+            "qs_sequence": 18,
+            "qs_question": "CODE HIDDEN VARIABLE TO SELECT CHILD 7-17",
+            "qs_type": "single",
+            "qs_flags": "{\"opt_shuffle\":0,\"opt_max\":null,\"opt_min\":null,\"rebased\":true}",
+            "tag": "S18",
+            "SPSS": "S18",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2024-11-23T15:14:59.000Z",
+            "updated_at": "2024-11-23T15:14:59.000Z",
+            "deleted_at": "2024-07-29T14:34:35.000Z",
+            "options": [
+                {
+                    "opt_id": 285388,
+                    "opt_qs_id": 90193,
+                    "opt_option": "6-jähriger Junge",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "1",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285389,
+                    "opt_qs_id": 90193,
+                    "opt_option": "7-jähriger Junge",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "2",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285390,
+                    "opt_qs_id": 90193,
+                    "opt_option": "8-jähriger Junge",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "3",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285391,
+                    "opt_qs_id": 90193,
+                    "opt_option": "9-jähriger Junge",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "4",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285392,
+                    "opt_qs_id": 90193,
+                    "opt_option": "10-jähriger Junge",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "5",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285393,
+                    "opt_qs_id": 90193,
+                    "opt_option": "11-jähriger Junge",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "6",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285394,
+                    "opt_qs_id": 90193,
+                    "opt_option": "12-jähriger Junge",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "7",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285395,
+                    "opt_qs_id": 90193,
+                    "opt_option": "13-jähriger Junge",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "8",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285396,
+                    "opt_qs_id": 90193,
+                    "opt_option": "14-jähriger Junge",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "9",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285397,
+                    "opt_qs_id": 90193,
+                    "opt_option": "15-jähriger Junge",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "10",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285398,
+                    "opt_qs_id": 90193,
+                    "opt_option": "16-jähriger Junge",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "11",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285399,
+                    "opt_qs_id": 90193,
+                    "opt_option": "17-jähriger Junge",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "12",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285400,
+                    "opt_qs_id": 90193,
+                    "opt_option": "6-jähriges Mädchen",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "13",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285401,
+                    "opt_qs_id": 90193,
+                    "opt_option": "7-jähriges Mädchen",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "14",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285402,
+                    "opt_qs_id": 90193,
+                    "opt_option": "8-jähriges Mädchen",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "15",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285403,
+                    "opt_qs_id": 90193,
+                    "opt_option": "9-jähriges Mädchen",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "16",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285404,
+                    "opt_qs_id": 90193,
+                    "opt_option": "10-jähriges Mädchen",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "17",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285405,
+                    "opt_qs_id": 90193,
+                    "opt_option": "11-jähriges Mädchen",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "18",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285406,
+                    "opt_qs_id": 90193,
+                    "opt_option": "12-jähriges Mädchen",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "19",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285407,
+                    "opt_qs_id": 90193,
+                    "opt_option": "13-jähriges Mädchen",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "20",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285408,
+                    "opt_qs_id": 90193,
+                    "opt_option": "14-jähriges Mädchen",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "21",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285409,
+                    "opt_qs_id": 90193,
+                    "opt_option": "15-jähriges Mädchen",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "22",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285410,
+                    "opt_qs_id": 90193,
+                    "opt_option": "16-jähriges Mädchen",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "23",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285411,
+                    "opt_qs_id": 90193,
+                    "opt_option": "17-jähriges Mädchen",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "24",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90194,
+            "qs_cns_id": 16702,
+            "qs_sequence": 20,
+            "qs_question": "SAMPLE CATEGORIES",
+            "qs_type": "single",
+            "qs_flags": "{\"opt_shuffle\":0,\"opt_max\":null,\"opt_min\":null,\"rebased\":true}",
+            "tag": "SURVEYPATH",
+            "SPSS": "SURVEYPATH",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2024-11-23T15:14:59.000Z",
+            "updated_at": "2024-11-23T15:14:59.000Z",
+            "deleted_at": "2024-07-23T15:17:35.000Z",
+            "options": [
+                {
+                    "opt_id": 285412,
+                    "opt_qs_id": 90194,
+                    "opt_option": "General 13-24",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "1",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285413,
+                    "opt_qs_id": 90194,
+                    "opt_option": "Parent 7-12",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "2",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90195,
+            "qs_cns_id": 16702,
+            "qs_sequence": 21,
+            "qs_question": "AGE CATEGORIES",
+            "qs_type": "single",
+            "qs_flags": "{\"opt_shuffle\":0,\"opt_max\":null,\"opt_min\":null}",
+            "tag": "AGEGROUPKID",
+            "SPSS": "AGEGROUPKID",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2024-11-23T15:15:00.000Z",
+            "updated_at": "2024-11-23T15:15:00.000Z",
+            "deleted_at": "2024-07-23T15:17:35.000Z",
+            "options": [
+                {
+                    "opt_id": 285414,
+                    "opt_qs_id": 90195,
+                    "opt_option": "13-17",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "1",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285415,
+                    "opt_qs_id": 90195,
+                    "opt_option": "18-24",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "2",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285416,
+                    "opt_qs_id": 90195,
+                    "opt_option": "Parent of 6-9",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "3",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285417,
+                    "opt_qs_id": 90195,
+                    "opt_option": "Parent of 10-12",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "4",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90196,
+            "qs_cns_id": 16702,
+            "qs_sequence": 22,
+            "qs_question": "AGEGENDER.AGE-GENDER CATEGORIES",
+            "qs_type": "single",
+            "qs_flags": "{\"opt_shuffle\":0,\"opt_max\":null,\"opt_min\":null}",
+            "tag": "AGEGENDER",
+            "SPSS": "AGEGENDER",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2024-11-23T15:15:00.000Z",
+            "updated_at": "2024-11-23T15:15:00.000Z",
+            "deleted_at": "2024-07-23T15:17:35.000Z",
+            "options": [
+                {
+                    "opt_id": 285418,
+                    "opt_qs_id": 90196,
+                    "opt_option": "Male 13-17",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "1",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285419,
+                    "opt_qs_id": 90196,
+                    "opt_option": "Female 13-17",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "2",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285420,
+                    "opt_qs_id": 90196,
+                    "opt_option": "Male 18-24",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "3",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285421,
+                    "opt_qs_id": 90196,
+                    "opt_option": "Female 18-24",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "4",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90197,
+            "qs_cns_id": 16702,
+            "qs_sequence": 23,
+            "qs_question": "AGE-GENDER CATEGORIES",
+            "qs_type": "single",
+            "qs_flags": "{\"opt_shuffle\":0,\"opt_max\":null,\"opt_min\":null}",
+            "tag": "PARGEN",
+            "SPSS": "PARGEN",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2024-11-23T15:15:00.000Z",
+            "updated_at": "2024-11-23T15:15:00.000Z",
+            "deleted_at": "2024-07-23T15:17:35.000Z",
+            "options": [
+                {
+                    "opt_id": 285422,
+                    "opt_qs_id": 90197,
+                    "opt_option": "Dad of 7-12",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "1",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285423,
+                    "opt_qs_id": 90197,
+                    "opt_option": "Mom of 7-12",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "2",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90198,
+            "qs_cns_id": 16702,
+            "qs_sequence": 24,
+            "qs_question": "Wie oft besuchen Sie die folgenden Social-Media-Plattformen?",
+            "qs_type": "grid",
+            "qs_flags": "{\"opt_shuffle\":true,\"group_rejection\":[285425,285427],\"target_audience\":true}",
+            "tag": "S20",
+            "SPSS": "S20",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2024-11-23T15:15:00.000Z",
+            "updated_at": "2024-11-23T15:16:30.000Z",
+            "deleted_at": null,
+            "options": [
+                {
+                    "opt_id": 285424,
+                    "opt_qs_id": 90198,
+                    "opt_option": "Facebook",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "A",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285425,
+                    "opt_qs_id": 90198,
+                    "opt_option": "THREADSSS",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "A",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285426,
+                    "opt_qs_id": 90198,
+                    "opt_option": "Snapchat",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "C",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285427,
+                    "opt_qs_id": 90198,
+                    "opt_option": "TikTok",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "D",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285428,
+                    "opt_qs_id": 90198,
+                    "opt_option": "Twitter/X",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "E",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285429,
+                    "opt_qs_id": 90198,
+                    "opt_option": "YouTube",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "F",
+                    "DISTRO": null
+                }
+            ],
+            "values": [
+                {
+                    "gr_id": 75558,
+                    "gr_qs_id": 90198,
+                    "gr_type": "normal",
+                    "gr_value": "Täglich",
+                    "gr_flags": "{\"gr_reject\":0}",
+                    "SPSS": "5",
+                    "DISTRO": null
+                },
+                {
+                    "gr_id": 75559,
+                    "gr_qs_id": 90198,
+                    "gr_type": "normal",
+                    "gr_value": "RUSSIAN HERO",
+                    "gr_flags": "{\"gr_reject\":0}",
+                    "SPSS": "4",
+                    "DISTRO": null
+                },
+                {
+                    "gr_id": 75560,
+                    "gr_qs_id": 90198,
+                    "gr_type": "normal",
+                    "gr_value": "1- bis 3-mal pro Woche",
+                    "gr_flags": "{\"gr_reject\":0}",
+                    "SPSS": "3",
+                    "DISTRO": null
+                },
+                {
+                    "gr_id": 75561,
+                    "gr_qs_id": 90198,
+                    "gr_type": "normal",
+                    "gr_value": "1- bis 3-mal pro Monat",
+                    "gr_flags": "{\"gr_reject\":1}",
+                    "SPSS": "2",
+                    "DISTRO": null
+                },
+                {
+                    "gr_id": 75562,
+                    "gr_qs_id": 90198,
+                    "gr_type": "normal",
+                    "gr_value": "Ein paar Mal im Jahr",
+                    "gr_flags": "{\"gr_reject\":1}",
+                    "SPSS": "1",
+                    "DISTRO": null
+                },
+                {
+                    "gr_id": 75563,
+                    "gr_qs_id": 90198,
+                    "gr_type": "normal",
+                    "gr_value": "Ich besuche diese Plattform nicht",
+                    "gr_flags": "{\"gr_reject\":1}",
+                    "SPSS": "0",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90199,
+            "qs_cns_id": 16702,
+            "qs_sequence": 25,
+            "qs_question": "Um sicherzustellen, dass Sie aufmerksam sind, wählen Sie bitte das oben gezeigte Tier aus.",
+            "qs_type": "single",
+            "qs_flags": "{\"opt_shuffle\":true,\"opt_max\":null,\"opt_min\":null}",
+            "tag": "REDHERRING1",
+            "SPSS": "QC1",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2024-11-23T15:15:01.000Z",
+            "updated_at": "2024-11-23T15:15:01.000Z",
+            "deleted_at": null,
+            "options": [
+                {
+                    "opt_id": 285430,
+                    "opt_qs_id": 90199,
+                    "opt_option": "Traktor",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":1,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "1",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285431,
+                    "opt_qs_id": 90199,
+                    "opt_option": "Hund",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "2",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285432,
+                    "opt_qs_id": 90199,
+                    "opt_option": "Elefant",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":1,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "3",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285433,
+                    "opt_qs_id": 90199,
+                    "opt_option": "Tiger",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":1,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "4",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285434,
+                    "opt_qs_id": 90199,
+                    "opt_option": "Frosch",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":1,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "5",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285435,
+                    "opt_qs_id": 90199,
+                    "opt_option": "Keines der oben Genannten",
+                    "opt_type": "none",
+                    "opt_flags": "{\"opt_reject\":1,\"opt_fixed\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "99",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90690,
+            "qs_cns_id": 16702,
+            "qs_sequence": 9,
+            "qs_question": "THIS IS NOT A TEST QUESTION ?",
+            "qs_type": "grid",
+            "qs_flags": "{\"opt_shuffle\":true,\"group_rejection\":[285425,285427],\"target_audience\":true}",
+            "tag": "S20",
+            "SPSS": "S20",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2025-01-14T22:35:01.000Z",
+            "updated_at": null,
+            "deleted_at": null,
+            "options": [
+                {
+                    "opt_id": 288443,
+                    "opt_qs_id": 90690,
+                    "opt_option": null,
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "A",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 288444,
+                    "opt_qs_id": 90690,
+                    "opt_option": "threads",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "B",
+                    "DISTRO": null
+                }
+            ],
+            "values": [
+                {
+                    "gr_id": 75925,
+                    "gr_qs_id": 90690,
+                    "gr_type": "normal",
+                    "gr_value": "MILENIUM",
+                    "gr_flags": "{\"gr_reject\":0}",
+                    "SPSS": "5",
+                    "DISTRO": null
+                },
+                {
+                    "gr_id": 75926,
+                    "gr_qs_id": 90690,
+                    "gr_type": "normal",
+                    "gr_value": "SAMAI PUR BADLI",
+                    "gr_flags": "{\"gr_reject\":0}",
+                    "SPSS": "3",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90694,
+            "qs_cns_id": 16702,
+            "qs_sequence": 9,
+            "qs_question": "THIS IS NOT A TEST QUESTION ?",
+            "qs_type": "grid",
+            "qs_flags": "{\"opt_shuffle\":true,\"group_rejection\":[285425,285427],\"target_audience\":true}",
+            "tag": "S20",
+            "SPSS": "S20",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2025-01-14T23:09:13.000Z",
+            "updated_at": null,
+            "deleted_at": null,
+            "options": [
+                {
+                    "opt_id": 288455,
+                    "opt_qs_id": 90694,
+                    "opt_option": null,
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "A",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 288456,
+                    "opt_qs_id": 90694,
+                    "opt_option": "threads",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "B",
+                    "DISTRO": null
+                }
+            ],
+            "values": [
+                {
+                    "gr_id": 75929,
+                    "gr_qs_id": 90694,
+                    "gr_type": "normal",
+                    "gr_value": "MILENIUM",
+                    "gr_flags": "{\"gr_reject\":0}",
+                    "SPSS": "5",
+                    "DISTRO": null
+                },
+                {
+                    "gr_id": 75930,
+                    "gr_qs_id": 90694,
+                    "gr_type": "normal",
+                    "gr_value": "SAMAI PUR BADLI",
+                    "gr_flags": "{\"gr_reject\":0}",
+                    "SPSS": "3",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90704,
+            "qs_cns_id": 16702,
+            "qs_sequence": 24,
+            "qs_question": "testquestion",
+            "qs_type": "grid",
+            "qs_flags": "{\"opt_shuffle\":true,\"group_rejection\":[285425,285427],\"target_audience\":true}",
+            "tag": "S20",
+            "SPSS": "S20",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2025-01-21T03:15:02.000Z",
+            "updated_at": null,
+            "deleted_at": null,
+            "options": [
+                {
+                    "opt_id": 288488,
+                    "opt_qs_id": 90704,
+                    "opt_option": "Facebook",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "A",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 288489,
+                    "opt_qs_id": 90704,
+                    "opt_option": "Instagram",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "B",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 288490,
+                    "opt_qs_id": 90704,
+                    "opt_option": "Snapchat",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "C",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 288491,
+                    "opt_qs_id": 90704,
+                    "opt_option": "TikTok",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "D",
+                    "DISTRO": null
+                }
+            ],
+            "values": [
+                {
+                    "gr_id": 75933,
+                    "gr_qs_id": 90704,
+                    "gr_type": "normal",
+                    "gr_value": "Täglich",
+                    "gr_flags": "{\"gr_reject\":0}",
+                    "SPSS": "5",
+                    "DISTRO": null
+                },
+                {
+                    "gr_id": 75934,
+                    "gr_qs_id": 90704,
+                    "gr_type": "normal",
+                    "gr_value": "4- bis 6-mal pro Woche",
+                    "gr_flags": "{\"gr_reject\":0}",
+                    "SPSS": "4",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90705,
+            "qs_cns_id": 16702,
+            "qs_sequence": 24,
+            "qs_question": "testquestion",
+            "qs_type": "grid",
+            "qs_flags": "{\"opt_shuffle\":true,\"group_rejection\":[285425,285427],\"target_audience\":true}",
+            "tag": "S20",
+            "SPSS": "S20",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2025-01-21T03:22:02.000Z",
+            "updated_at": null,
+            "deleted_at": null,
+            "options": [
+                {
+                    "opt_id": 288492,
+                    "opt_qs_id": 90705,
+                    "opt_option": "Facebook",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "A",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 288493,
+                    "opt_qs_id": 90705,
+                    "opt_option": "Instagram",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "B",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 288494,
+                    "opt_qs_id": 90705,
+                    "opt_option": "Snapchat",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "C",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 288495,
+                    "opt_qs_id": 90705,
+                    "opt_option": "TikTok",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "D",
+                    "DISTRO": null
+                }
+            ],
+            "values": [
+                {
+                    "gr_id": 75935,
+                    "gr_qs_id": 90705,
+                    "gr_type": "normal",
+                    "gr_value": "Täglich",
+                    "gr_flags": "{\"gr_reject\":0}",
+                    "SPSS": "5",
+                    "DISTRO": null
+                },
+                {
+                    "gr_id": 75936,
+                    "gr_qs_id": 90705,
+                    "gr_type": "normal",
+                    "gr_value": "4- bis 6-mal pro Woche",
+                    "gr_flags": "{\"gr_reject\":0}",
+                    "SPSS": "4",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90706,
+            "qs_cns_id": 16702,
+            "qs_sequence": 24,
+            "qs_question": "testquestion",
+            "qs_type": "grid",
+            "qs_flags": "{\"opt_shuffle\":true,\"group_rejection\":[285425,285427],\"target_audience\":true}",
+            "tag": "S20",
+            "SPSS": "S20",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2025-01-21T03:26:51.000Z",
+            "updated_at": null,
+            "deleted_at": null,
+            "options": [
+                {
+                    "opt_id": 288496,
+                    "opt_qs_id": 90706,
+                    "opt_option": "Facebook",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "A",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 288497,
+                    "opt_qs_id": 90706,
+                    "opt_option": "Instagram",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "B",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 288498,
+                    "opt_qs_id": 90706,
+                    "opt_option": "Snapchat",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "C",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 288499,
+                    "opt_qs_id": 90706,
+                    "opt_option": "TikTok",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "D",
+                    "DISTRO": null
+                }
+            ],
+            "values": []
+        },
+        {
+            "qs_id": 90707,
+            "qs_cns_id": 16702,
+            "qs_sequence": 24,
+            "qs_question": "testquestion",
+            "qs_type": "grid",
+            "qs_flags": "{\"opt_shuffle\":true,\"group_rejection\":[285425,285427],\"target_audience\":true}",
+            "tag": "S20",
+            "SPSS": "S20",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2025-01-21T03:29:35.000Z",
+            "updated_at": null,
+            "deleted_at": null,
+            "options": [
+                {
+                    "opt_id": 288500,
+                    "opt_qs_id": 90707,
+                    "opt_option": "Facebook",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "A",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 288501,
+                    "opt_qs_id": 90707,
+                    "opt_option": "Instagram",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "B",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 288502,
+                    "opt_qs_id": 90707,
+                    "opt_option": "Snapchat",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "C",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 288503,
+                    "opt_qs_id": 90707,
+                    "opt_option": "TikTok",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "D",
+                    "DISTRO": null
+                }
+            ],
+            "values": [
+                {
+                    "gr_id": 75937,
+                    "gr_qs_id": 90707,
+                    "gr_type": "normal",
+                    "gr_value": "Täglich",
+                    "gr_flags": "{\"gr_reject\":0}",
+                    "SPSS": "5",
+                    "DISTRO": null
+                },
+                {
+                    "gr_id": 75938,
+                    "gr_qs_id": 90707,
+                    "gr_type": "normal",
+                    "gr_value": "4- bis 6-mal pro Woche",
+                    "gr_flags": "{\"gr_reject\":0}",
+                    "SPSS": "4",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90708,
+            "qs_cns_id": 16702,
+            "qs_sequence": 24,
+            "qs_question": "testquestion",
+            "qs_type": "grid",
+            "qs_flags": "{\"opt_shuffle\":true,\"group_rejection\":[285425,285427],\"target_audience\":true}",
+            "tag": "S20",
+            "SPSS": "S20",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2025-01-21T03:29:53.000Z",
+            "updated_at": null,
+            "deleted_at": null,
+            "options": [
+                {
+                    "opt_id": 288504,
+                    "opt_qs_id": 90708,
+                    "opt_option": "Facebook",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "A",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 288505,
+                    "opt_qs_id": 90708,
+                    "opt_option": "Instagram",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "B",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 288506,
+                    "opt_qs_id": 90708,
+                    "opt_option": "Snapchat",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "C",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 288507,
+                    "opt_qs_id": 90708,
+                    "opt_option": "TikTok",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "D",
+                    "DISTRO": null
+                }
+            ],
+            "values": [
+                {
+                    "gr_id": 75939,
+                    "gr_qs_id": 90708,
+                    "gr_type": "normal",
+                    "gr_value": "Täglich",
+                    "gr_flags": "{\"gr_reject\":0}",
+                    "SPSS": "5",
+                    "DISTRO": null
+                },
+                {
+                    "gr_id": 75940,
+                    "gr_qs_id": 90708,
+                    "gr_type": "normal",
+                    "gr_value": "4- bis 6-mal pro Woche",
+                    "gr_flags": "{\"gr_reject\":0}",
+                    "SPSS": "4",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90709,
+            "qs_cns_id": 16702,
+            "qs_sequence": 24,
+            "qs_question": "testquestion",
+            "qs_type": "grid",
+            "qs_flags": "{\"opt_shuffle\":true,\"group_rejection\":[285425,285427],\"target_audience\":true}",
+            "tag": "S20",
+            "SPSS": "S20",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2025-01-21T03:32:22.000Z",
+            "updated_at": null,
+            "deleted_at": null,
+            "options": [],
+            "values": []
+        },
+        {
+            "qs_id": 90710,
+            "qs_cns_id": 16702,
+            "qs_sequence": 24,
+            "qs_question": "testquestion",
+            "qs_type": "grid",
+            "qs_flags": "{\"opt_shuffle\":true,\"group_rejection\":[285425,285427],\"target_audience\":true}",
+            "tag": "S20",
+            "SPSS": "S20",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2025-01-21T03:33:59.000Z",
+            "updated_at": null,
+            "deleted_at": null,
+            "options": [
+                {
+                    "opt_id": 288508,
+                    "opt_qs_id": 90710,
+                    "opt_option": "Facebook",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "A",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 288509,
+                    "opt_qs_id": 90710,
+                    "opt_option": "Instagram",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "B",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 288510,
+                    "opt_qs_id": 90710,
+                    "opt_option": "Snapchat",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "C",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 288511,
+                    "opt_qs_id": 90710,
+                    "opt_option": "TikTok",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "D",
+                    "DISTRO": null
+                }
+            ],
+            "values": [
+                {
+                    "gr_id": 75941,
+                    "gr_qs_id": 90710,
+                    "gr_type": "normal",
+                    "gr_value": "Täglich",
+                    "gr_flags": "{\"gr_reject\":0}",
+                    "SPSS": "5",
+                    "DISTRO": null
+                },
+                {
+                    "gr_id": 75942,
+                    "gr_qs_id": 90710,
+                    "gr_type": "normal",
+                    "gr_value": "4- bis 6-mal pro Woche",
+                    "gr_flags": "{\"gr_reject\":0}",
+                    "SPSS": "4",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90711,
+            "qs_cns_id": 16702,
+            "qs_sequence": 24,
+            "qs_question": "testquestion",
+            "qs_type": "grid",
+            "qs_flags": "{\"opt_shuffle\":true,\"group_rejection\":[285425,285427],\"target_audience\":true}",
+            "tag": "S20",
+            "SPSS": "S20",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2025-01-21T03:35:01.000Z",
+            "updated_at": null,
+            "deleted_at": null,
+            "options": [
+                {
+                    "opt_id": 288512,
+                    "opt_qs_id": 90711,
+                    "opt_option": "Facebook",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "A",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 288513,
+                    "opt_qs_id": 90711,
+                    "opt_option": "Instagram",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "B",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 288514,
+                    "opt_qs_id": 90711,
+                    "opt_option": "Snapchat",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "C",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 288515,
+                    "opt_qs_id": 90711,
+                    "opt_option": "TikTok",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "D",
+                    "DISTRO": null
+                }
+            ],
+            "values": [
+                {
+                    "gr_id": 75943,
+                    "gr_qs_id": 90711,
+                    "gr_type": "normal",
+                    "gr_value": "Täglich",
+                    "gr_flags": "{\"gr_reject\":0}",
+                    "SPSS": "5",
+                    "DISTRO": null
+                },
+                {
+                    "gr_id": 75944,
+                    "gr_qs_id": 90711,
+                    "gr_type": "normal",
+                    "gr_value": "4- bis 6-mal pro Woche",
+                    "gr_flags": "{\"gr_reject\":0}",
+                    "SPSS": "4",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90712,
+            "qs_cns_id": 16702,
+            "qs_sequence": 24,
+            "qs_question": "testquestion",
+            "qs_type": "grid",
+            "qs_flags": "{\"opt_shuffle\":true,\"group_rejection\":[285425,285427],\"target_audience\":true}",
+            "tag": "S20",
+            "SPSS": "S20",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2025-01-21T03:35:44.000Z",
+            "updated_at": null,
+            "deleted_at": null,
+            "options": [
+                {
+                    "opt_id": 288516,
+                    "opt_qs_id": 90712,
+                    "opt_option": "Facebook",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "A",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 288517,
+                    "opt_qs_id": 90712,
+                    "opt_option": "Instagram",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "B",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 288518,
+                    "opt_qs_id": 90712,
+                    "opt_option": "Snapchat",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "C",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 288519,
+                    "opt_qs_id": 90712,
+                    "opt_option": "TikTok",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "D",
+                    "DISTRO": null
+                }
+            ],
+            "values": []
+        },
+        {
+            "qs_id": 90714,
+            "qs_cns_id": 16702,
+            "qs_sequence": 24,
+            "qs_question": "testquestion",
+            "qs_type": "grid",
+            "qs_flags": "{\"opt_shuffle\":true,\"group_rejection\":[285425,285427],\"target_audience\":true}",
+            "tag": "S20",
+            "SPSS": "S20",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2025-01-21T03:45:17.000Z",
+            "updated_at": "2025-01-21T04:17:57.000Z",
+            "deleted_at": null,
+            "options": [
+                {
+                    "opt_id": 288524,
+                    "opt_qs_id": 90714,
+                    "opt_option": "Facebook",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "A",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 288525,
+                    "opt_qs_id": 90714,
+                    "opt_option": "Instagram",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "B",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 288526,
+                    "opt_qs_id": 90714,
+                    "opt_option": "Snapchat",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "C",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 288527,
+                    "opt_qs_id": 90714,
+                    "opt_option": "TikTok",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "D",
+                    "DISTRO": null
+                }
+            ],
+            "values": [
+                {
+                    "gr_id": 75947,
+                    "gr_qs_id": 90714,
+                    "gr_type": "normal",
+                    "gr_value": "Täglich",
+                    "gr_flags": "{\"gr_reject\":0}",
+                    "SPSS": "5",
+                    "DISTRO": null
+                },
+                {
+                    "gr_id": 75948,
+                    "gr_qs_id": 90714,
+                    "gr_type": "normal",
+                    "gr_value": "4- bis 6-mal pro Woche",
+                    "gr_flags": "{\"gr_reject\":0}",
+                    "SPSS": "4",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90200,
+            "qs_cns_id": 16703,
+            "qs_sequence": 1,
+            "qs_question": "Wenn Sie an die [CODEPLATFORM]-Erfahrung zurückdenken, durch die Sie gerade navigiert haben, können Sie sich erinnern, dass Sie <b><u>Videos/Werbung für kommende</u></b> Filme oder Fernsehserien gesehen haben? <i>Wenn ja, listen Sie unten bitte alle Titel auf, an die Sie sich erinnern können.</i>\n",
+            "qs_type": "multiple-freetext",
+            "qs_flags": "{\"placeholder\":\"Video\/Werbung \",\"boxes\":1,\"show_options\":5}",
+            "tag": "Unaided_Recall_SKP_A",
+            "SPSS": "UNAIDED_RECALL",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2024-11-23T15:19:12.000Z",
+            "updated_at": "2024-11-23T15:19:12.000Z",
+            "deleted_at": null
+        },
+        {
+            "qs_id": 90201,
+            "qs_cns_id": 16703,
+            "qs_sequence": 2,
+            "qs_question": "Nachfolgend finden Sie einige mögliche Titel für Videos oder Werbung, die Sie während der [CODEPLATFORM]-Erfahrung möglicherweise für kommende Filme oder Fernsehserien gesehen haben. Wählen Sie bitte aus, ob Sie sich erinnern, ein Video zu diesem Film oder dieser Fernsehserie gesehen zu haben.",
+            "qs_type": "grid",
+            "qs_flags": "{\"opt_shuffle\":true,\"hide_options\":90203,\"group_rejection\":[285440,285441]}",
+            "tag": "Aided_Recall_SKP_A",
+            "SPSS": "AIDED_RECALL",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2024-11-23T15:19:12.000Z",
+            "updated_at": "2024-11-23T15:19:24.000Z",
+            "deleted_at": null,
+            "options": [
+                {
+                    "opt_id": 285436,
+                    "opt_qs_id": 90201,
+                    "opt_option": "Sonic The Hedgehog 3",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"eq_opt_id\":285448}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "A",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285437,
+                    "opt_qs_id": 90201,
+                    "opt_option": "Mufasa: Der König der Löwen",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"eq_opt_id\":285449}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "B",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285438,
+                    "opt_qs_id": 90201,
+                    "opt_option": "Paddington In Peru",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"eq_opt_id\":285450}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "C",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285439,
+                    "opt_qs_id": 90201,
+                    "opt_option": "Der Herr der Ringe: Die Schlacht der Rohirrim",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"eq_opt_id\":285451}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "D",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285440,
+                    "opt_qs_id": 90201,
+                    "opt_option": "Echoes of tomorrow",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "E",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285441,
+                    "opt_qs_id": 90201,
+                    "opt_option": "Beneath the surface",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "F",
+                    "DISTRO": null
+                }
+            ],
+            "values": [
+                {
+                    "gr_id": 75564,
+                    "gr_qs_id": 90201,
+                    "gr_type": "normal",
+                    "gr_value": "Ja, auf jeden Fall",
+                    "gr_flags": "{\"gr_reject\":1,\"show\":1}",
+                    "SPSS": "1",
+                    "DISTRO": null
+                },
+                {
+                    "gr_id": 75565,
+                    "gr_qs_id": 90201,
+                    "gr_type": "normal",
+                    "gr_value": "Vielleicht",
+                    "gr_flags": "{\"gr_reject\":0}",
+                    "SPSS": "2",
+                    "DISTRO": null
+                },
+                {
+                    "gr_id": 75566,
+                    "gr_qs_id": 90201,
+                    "gr_type": "normal",
+                    "gr_value": "Nein",
+                    "gr_flags": "[]",
+                    "SPSS": "3",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90202,
+            "qs_cns_id": 16703,
+            "qs_sequence": 3,
+            "qs_question": "Haben Sie vor heute <b><u>von einem</u></b> der folgenden Filme, die demnächst erscheinen, gehört?",
+            "qs_type": "grid",
+            "qs_flags": "{\"opt_shuffle\":true,\"group_rejection\":[285446,285447]}",
+            "tag": "AWARE_NEW",
+            "SPSS": "AWARE_NEW",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2024-11-23T15:19:13.000Z",
+            "updated_at": "2024-11-23T15:19:24.000Z",
+            "deleted_at": null,
+            "options": [
+                {
+                    "opt_id": 285442,
+                    "opt_qs_id": 90202,
+                    "opt_option": "Sonic The Hedgehog 3",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "A",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285443,
+                    "opt_qs_id": 90202,
+                    "opt_option": "Mufasa: Der König der Löwen",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "B",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285444,
+                    "opt_qs_id": 90202,
+                    "opt_option": "Paddington In Peru",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "C",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285445,
+                    "opt_qs_id": 90202,
+                    "opt_option": "Der Herr der Ringe: Die Schlacht der Rohirrim",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "D",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285446,
+                    "opt_qs_id": 90202,
+                    "opt_option": "Echoes of tomorrow",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "E",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285447,
+                    "opt_qs_id": 90202,
+                    "opt_option": "Beneath the surface",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "F",
+                    "DISTRO": null
+                }
+            ],
+            "values": [
+                {
+                    "gr_id": 75567,
+                    "gr_qs_id": 90202,
+                    "gr_type": "normal",
+                    "gr_value": "Ja",
+                    "gr_flags": "{\"gr_reject\":1,\"show\":1}",
+                    "SPSS": "1",
+                    "DISTRO": null
+                },
+                {
+                    "gr_id": 75568,
+                    "gr_qs_id": 90202,
+                    "gr_type": "normal",
+                    "gr_value": "Nein",
+                    "gr_flags": "{\"gr_reject\":0}",
+                    "SPSS": "2",
+                    "DISTRO": null
+                },
+                {
+                    "gr_id": 75569,
+                    "gr_qs_id": 90202,
+                    "gr_type": "normal",
+                    "gr_value": "Nicht sicher",
+                    "gr_flags": "[]",
+                    "SPSS": "3",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90203,
+            "qs_cns_id": 16703,
+            "qs_sequence": 4,
+            "qs_question": "Konnten Sie für jeden Film, an den Sie sich aus den angesehenen Videos erinnern, feststellen, wo der Inhalt zuerst zum Ansehen verfügbar sein wird? <i>Bitte angeben.</i>",
+            "qs_type": "grid",
+            "qs_flags": "{\"opt_shuffle\":true,\"rebased\":false}",
+            "tag": "Distro_Linkage_SKP_A",
+            "SPSS": "DISTRO_LINKAGE",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2024-11-23T15:19:13.000Z",
+            "updated_at": "2024-11-23T15:19:13.000Z",
+            "deleted_at": null,
+            "options": [
+                {
+                    "opt_id": 285448,
+                    "opt_qs_id": 90203,
+                    "opt_option": "Sonic The Hedgehog 3",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "A",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285449,
+                    "opt_qs_id": 90203,
+                    "opt_option": "Mufasa: Der König der Löwen",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "B",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285450,
+                    "opt_qs_id": 90203,
+                    "opt_option": "Paddington In Peru",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "C",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285451,
+                    "opt_qs_id": 90203,
+                    "opt_option": "Der Herr der Ringe: Die Schlacht der Rohirrim",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "D",
+                    "DISTRO": null
+                }
+            ],
+            "values": [
+                {
+                    "gr_id": 75570,
+                    "gr_qs_id": 90203,
+                    "gr_type": "normal",
+                    "gr_value": "Ja, im Kino",
+                    "gr_flags": "{\"gr_reject\":0}",
+                    "SPSS": "1",
+                    "DISTRO": null
+                },
+                {
+                    "gr_id": 75571,
+                    "gr_qs_id": 90203,
+                    "gr_type": "normal",
+                    "gr_value": "Ja, auf einer Streaming-Plattform",
+                    "gr_flags": "{\"gr_reject\":0}",
+                    "SPSS": "2",
+                    "DISTRO": null
+                },
+                {
+                    "gr_id": 75572,
+                    "gr_qs_id": 90203,
+                    "gr_type": "normal",
+                    "gr_value": "Nein, ich bin mir nicht sicher",
+                    "gr_flags": "[]",
+                    "SPSS": "3",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90204,
+            "qs_cns_id": 16703,
+            "qs_sequence": 5,
+            "qs_question": "Basierend auf den Videos, die Sie gesehen haben, wie sehr sind Sie daran interessiert, die folgenden Filme im kino zu sehen, wenn sie veröffentlicht werden?\n",
+            "qs_type": "grid",
+            "qs_flags": "{\"opt_shuffle\":true}",
+            "tag": "Interest_SKP_A",
+            "SPSS": "INTEREST1A",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2024-11-23T15:19:13.000Z",
+            "updated_at": "2024-11-23T15:19:13.000Z",
+            "deleted_at": null,
+            "options": [
+                {
+                    "opt_id": 285452,
+                    "opt_qs_id": 90204,
+                    "opt_option": "Sonic The Hedgehog 3",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "A",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285453,
+                    "opt_qs_id": 90204,
+                    "opt_option": "Mufasa: Der König der Löwen",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "B",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285454,
+                    "opt_qs_id": 90204,
+                    "opt_option": "Paddington In Peru",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "C",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285455,
+                    "opt_qs_id": 90204,
+                    "opt_option": "Der Herr der Ringe: Die Schlacht der Rohirrim",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "D",
+                    "DISTRO": null
+                }
+            ],
+            "values": [
+                {
+                    "gr_id": 75573,
+                    "gr_qs_id": 90204,
+                    "gr_type": "normal",
+                    "gr_value": "Werde es mir auf jeden Fall ansehen",
+                    "gr_flags": "[]",
+                    "SPSS": "1",
+                    "DISTRO": null
+                },
+                {
+                    "gr_id": 75574,
+                    "gr_qs_id": 90204,
+                    "gr_type": "normal",
+                    "gr_value": "Werde es mir wahrscheinlich ansehen",
+                    "gr_flags": "[]",
+                    "SPSS": "2",
+                    "DISTRO": null
+                },
+                {
+                    "gr_id": 75575,
+                    "gr_qs_id": 90204,
+                    "gr_type": "normal",
+                    "gr_value": "Könnte es sein, vielleicht auch nicht",
+                    "gr_flags": "[]",
+                    "SPSS": "3",
+                    "DISTRO": null
+                },
+                {
+                    "gr_id": 75576,
+                    "gr_qs_id": 90204,
+                    "gr_type": "normal",
+                    "gr_value": "Werde es mir wahrscheinlich nicht ansehen",
+                    "gr_flags": "[]",
+                    "SPSS": "4",
+                    "DISTRO": null
+                },
+                {
+                    "gr_id": 75577,
+                    "gr_qs_id": 90204,
+                    "gr_type": "normal",
+                    "gr_value": "Ich werde es mir auf keinen Fall ansehen",
+                    "gr_flags": "[]",
+                    "SPSS": "5",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90205,
+            "qs_cns_id": 16703,
+            "qs_sequence": 6,
+            "qs_question": "Basierend auf den Videos, die Sie gesehen haben, wie sehr sind Sie daran interessiert, mit Ihrem YYYYYYY jeden der folgenden Filme im kino anzusehen, wenn sie veröffentlicht werden?",
+            "qs_type": "grid",
+            "qs_flags": "{\"opt_shuffle\":true,\"cnt_id\":[15074, 15124, 15125, 15126],\"cnt_based\":true}",
+            "tag": "KIDINTEREST1A",
+            "SPSS": "KIDINTEREST1A",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2024-11-23T15:19:13.000Z",
+            "updated_at": "2024-11-23T15:19:13.000Z",
+            "deleted_at": null,
+            "options": [
+                {
+                    "opt_id": 285456,
+                    "opt_qs_id": 90205,
+                    "opt_option": "Sonic gdfdgf",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "A",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285457,
+                    "opt_qs_id": 90205,
+                    "opt_option": "Mufasa: Der König der Löwen",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "B",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285458,
+                    "opt_qs_id": 90205,
+                    "opt_option": "Paddington In Peru",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "C",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285459,
+                    "opt_qs_id": 90205,
+                    "opt_option": "Der Herr der Ringe: Die Schlacht der Rohirrim",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "D",
+                    "DISTRO": null
+                }
+            ],
+            "values": [
+                {
+                    "gr_id": 75578,
+                    "gr_qs_id": 90205,
+                    "gr_type": "normal",
+                    "gr_value": "Werde mein Kind auf jeden Fall mitnehmen",
+                    "gr_flags": "[]",
+                    "SPSS": "1",
+                    "DISTRO": null
+                },
+                {
+                    "gr_id": 75579,
+                    "gr_qs_id": 90205,
+                    "gr_type": "normal",
+                    "gr_value": "Werde wahrscheinlich mein Kind mitnehmen",
+                    "gr_flags": "[]",
+                    "SPSS": "2",
+                    "DISTRO": null
+                },
+                {
+                    "gr_id": 75580,
+                    "gr_qs_id": 90205,
+                    "gr_type": "normal",
+                    "gr_value": "Könnte mein Kind mitnehmen oder auch nicht",
+                    "gr_flags": "[]",
+                    "SPSS": "3",
+                    "DISTRO": null
+                },
+                {
+                    "gr_id": 75581,
+                    "gr_qs_id": 90205,
+                    "gr_type": "normal",
+                    "gr_value": "Ich werde mein Kind wahrscheinlich nicht mitnehmen",
+                    "gr_flags": "[]",
+                    "SPSS": "4",
+                    "DISTRO": null
+                },
+                {
+                    "gr_id": 75582,
+                    "gr_qs_id": 90205,
+                    "gr_type": "normal",
+                    "gr_value": "Ich werde mein Kind auf keinen Fall mitnehmen",
+                    "gr_flags": "[]",
+                    "SPSS": "5",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90228,
+            "qs_cns_id": 16709,
+            "qs_sequence": 1,
+            "qs_question": "Wenn die folgenden Filme ungefähr zur gleichen Zeit erscheinen, welche würden Sie sich als Erstes ansehen?",
+            "qs_type": "single",
+            "qs_flags": "{\"opt_shuffle\":true,\"opt_max\":null,\"opt_min\":null,\"cnt_id\":[15073,15117,15118,15119,15120],\"cnt_based\":true}",
+            "tag": "Film_Favorite_FXP_A",
+            "SPSS": "FIRSTCHOICE",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2024-11-23T15:38:22.000Z",
+            "updated_at": "2024-11-23T15:38:22.000Z",
+            "deleted_at": null,
+            "options": [
+                {
+                    "opt_id": 285564,
+                    "opt_qs_id": 90228,
+                    "opt_option": "Sonic The Hedgehog 3",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "A",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285565,
+                    "opt_qs_id": 90228,
+                    "opt_option": "Mufasa: Der König der Löwen",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[]",
+                    "SPSS": "B",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285566,
+                    "opt_qs_id": 90228,
+                    "opt_option": "Paddington In Peru",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[90230]",
+                    "SPSS": "C",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285567,
+                    "opt_qs_id": 90228,
+                    "opt_option": "Der Herr der Ringe: Die Schlacht der Rohirrim",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[90230]",
+                    "SPSS": "D",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285568,
+                    "opt_qs_id": 90228,
+                    "opt_option": "Ich würde mir wahrscheinlich keines davon ansehen",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":1}",
+                    "opt_child_qs": "[90230]",
+                    "SPSS": "E",
+                    "DISTRO": null
+                }
+            ]
+        },
+        {
+            "qs_id": 90231,
+            "qs_cns_id": 16709,
+            "qs_sequence": 2,
+            "qs_question": "Wenn die folgenden Filme ungefähr zur gleichen Zeit erscheinen, welche würden Sie sich <u><b>mit Ihrem YYYYYYY</b></u> als Erstes ansehen?",
+            "qs_type": "single",
+            "qs_flags": "{\"opt_shuffle\":true,\"opt_max\":null,\"opt_min\":null,\"rebased\":true,\"cnt_id\":[15074, 15124, 15125, 15126],\"cnt_based\":true}",
+            "tag": "PARENTFIRSTCHOICE",
+            "SPSS": "PARENTFIRSTCHOICE",
+            "DISTRO": null,
+            "qs_child_of_opt": null,
+            "qs_child_of_grid": null,
+            "qs_child_of_numeric": null,
+            "is_default": 0,
+            "created_at": "2024-11-23T15:38:22.000Z",
+            "updated_at": "2024-11-23T15:38:22.000Z",
+            "deleted_at": null,
+            "options": [
+                {
+                    "opt_id": 285569,
+                    "opt_qs_id": 90231,
+                    "opt_option": "Sonic the Hedgehog 3",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[90229]",
+                    "SPSS": "A",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285570,
+                    "opt_qs_id": 90231,
+                    "opt_option": "Mufasa: Der König der Löwen",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[90230]",
+                    "SPSS": "B",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285571,
+                    "opt_qs_id": 90231,
+                    "opt_option": "Paddington In Peru",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[90230]",
+                    "SPSS": "C",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285572,
+                    "opt_qs_id": 90231,
+                    "opt_option": "Der Herr der Ringe: Die Schlacht der Rohirrim",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0}",
+                    "opt_child_qs": "[90230]",
+                    "SPSS": "D",
+                    "DISTRO": null
+                },
+                {
+                    "opt_id": 285573,
+                    "opt_qs_id": 90231,
+                    "opt_option": "Ich würde mir wahrscheinlich keines davon ansehen",
+                    "opt_type": "normal",
+                    "opt_flags": "{\"opt_reject\":0,\"opt_fixed\":1}",
+                    "opt_child_qs": "[90230]",
+                    "SPSS": "E",
+                    "DISTRO": null
+                }
+            ]
+        }
+    ]
+}
